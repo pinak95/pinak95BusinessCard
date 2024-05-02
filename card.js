@@ -21,17 +21,15 @@ const questions = [
       {
         name: `Send me an ${chalk.cyan.bold("email")}`,
         value: () => {
-          const email = open("mailto:pinak.thakar95@gmail.com");
+          open("mailto:pinak.thakar95@gmail.com");
           console.log("\nDone, see you soon at inbox.\n");
-          return email;
         },
       },
       {
         name: `Visit my ${chalk.green.bold("website")}`,
         value: () => {
-          const website = open("https://pinakthakar.codes");
+          open("https://pinakthakar.codes");
           console.log("\nDone, see you soon at website.\n");
-          return website;
         },
       },
       {
