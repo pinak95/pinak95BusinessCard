@@ -37,7 +37,7 @@ const questions = [
       {
         name: "Just quit.",
         value: () => {
-          console.log("\nI will be back!\n");
+          console.log("\nI will see you next time!\n");
         },
       },
     ],
