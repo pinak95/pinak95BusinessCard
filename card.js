@@ -60,11 +60,16 @@ const data = {
   github: chalk.gray("https://github.com/") + chalk.white.bold("pinak95"),
   linkedin:
     chalk.gray("https://linkedin.com/in/") + chalk.white.bold("pinak95"),
+  leetcode: chalk.gray("https://leetcode.com/u/") + chalk.white.bold("pinak95"),
+  codeforces:
+    chalk.gray("https://codeforces.com/profile/") + chalk.white.bold("pinak95"),
   web: chalk.cyan.bold("https://pinakthakar.codes"),
-  npx: chalk.red("npx") + " " + chalk.white.bold("pinak95"),
+  npx: chalk.redBright("npx") + " " + chalk.white.bold("pinak95"),
 
   labelWork: chalk.white.bold("       Work:"),
   labelGitHub: chalk.white.bold("     GitHub:"),
+  labelLeetCode: chalk.white.bold("   LeetCode:"),
+  labelCodeforces: chalk.white.bold(" Codeforces:"),
   labelLinkedIn: chalk.white.bold("   LinkedIn:"),
   labelWeb: chalk.white.bold("        Web:"),
   labelCard: chalk.white.bold("       Card:"),
@@ -74,6 +79,8 @@ const newline = "\n";
 const heading = `${data.name} / ${data.handle}`;
 const working = `${data.labelWork}  ${data.work}`;
 const githubing = `${data.labelGitHub}  ${data.github}`;
+const leetcoding = `${data.labelLeetCode}  ${data.leetcode}`;
+const codeforcesing = `${data.labelCodeforces}  ${data.codeforces}`;
 const linkedining = `${data.labelLinkedIn}  ${data.linkedin}`;
 const webing = `${data.labelWeb}  ${data.web}`;
 const carding = `${data.labelCard}  ${data.npx}`;
@@ -88,6 +95,10 @@ const output =
   working +
   newline +
   githubing +
+  newline +
+  leetcoding +
+  newline +
+  codeforcesing +
   newline +
   linkedining +
   newline +
