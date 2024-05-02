@@ -57,10 +57,11 @@ const data = {
   work: `${chalk.white("Junior AI Architect and Backend Engineer at")} ${chalk
     .hex("#00FF00")
     .bold("A.B. Modi LLC")}`,
-  github: chalk.gray("https://github.com/") + chalk.white("pinak95"),
-  linkedin: chalk.gray("https://linkedin.com/in/") + chalk.white("pinak95"),
-  web: chalk.cyan("https://pinakthakar.codes"),
-  npx: chalk.red("npx") + " " + chalk.white("pinak95"),
+  github: chalk.gray("https://github.com/") + chalk.white.bold("pinak95"),
+  linkedin:
+    chalk.gray("https://linkedin.com/in/") + chalk.white.bold("pinak95"),
+  web: chalk.cyan.bold("https://pinakthakar.codes"),
+  npx: chalk.red("npx") + " " + chalk.white.bold("pinak95"),
 
   labelWork: chalk.white.bold("       Work:"),
   labelGitHub: chalk.white.bold("     GitHub:"),
@@ -98,11 +99,12 @@ const output =
   newline +
   me;
 
+console.log(chalk.green(boxen(output, options)));
+
 const tip = [
   `Tip: Try ${chalk.cyanBright.bold("cmd/ctrl + click")} on the links above`,
   "",
 ].join("\n");
 console.log(tip);
 
-console.log(chalk.green(boxen(output, options)));
 prompt(questions).then((answer) => answer.action());
