@@ -8,4 +8,4 @@ npx pinak95
 ```
 -This is how it looks
 
-![image]("C:\Users\pinak\OneDrive\Documents\GitHub\pinak95BusinessCard\card.gif")
+![image](https://github.com/pinak95/pinak95BusinessCard/blob/main/card.gif)
