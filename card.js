@@ -2,11 +2,11 @@
 
 "use strict";
 
-const inquirer = require("inquirer");
-const chalk = require("chalk");
-const boxen = require("boxen");
-const open = require("open");
-const clear = require("clear");
+const inquirer = require("inquirer/cjs");
+const chalk = require("chalk/cjs");
+const boxen = require("boxen/cjs");
+const open = require("open/cjs");
+const clear = require("clear/cjs");
 
 clear();
 
