@@ -1,0 +1,38 @@
+{
+  "name": "pinak95",
+  "version": "1.0.0",
+  "description": "Professional business card for Pinak Thakar @pinak95",
+  "main": "card.js",
+  "type": "module",
+  "scripts": {
+    "start": "node card.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "bin": {
+    "pinak95": "./card.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/pinak95/pinak95BusinessCard.git"
+  },
+  "files": [
+    "card.js",
+    "package.json"
+  ],
+  "keywords": [
+    "pinak95",
+    "businesscard",
+    "npxcard",
+    "npmcard",
+    "developer"
+  ],
+  "author": "Pinak Thakar",
+  "license": "ISC",
+  "dependencies": {
+    "boxen": "^7.1.1",
+    "chalk": "^5.3.0",
+    "clear": "^0.1.0",
+    "inquirer": "^9.2.12",
+    "open": "^10.1.0"
+  }
+}
